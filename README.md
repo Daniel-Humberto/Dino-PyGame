@@ -30,7 +30,7 @@ Dino PyGame es una recreación minimalista y del juego del dinosaurio de Chrome,
 ---
 
 
-# Características principales
+## Características principales
 
 * Dinosaurio con animaciones: correr, agacharse, saltar y estado "muerto", todas definidas por arrays de pixel-art en el código.
 * Obstáculos generados proceduralmente: distintos tipos de cactus (con/ sin brazos) y aves con animación por frames.
@@ -42,7 +42,7 @@ Dino PyGame es una recreación minimalista y del juego del dinosaurio de Chrome,
 ---
 
 
-# Requisitos
+## Requisitos
 
 * Python 3.8+ (3.10/3.11 recomendados)
 * pip
@@ -52,7 +52,7 @@ Dino PyGame es una recreación minimalista y del juego del dinosaurio de Chrome,
 ---
 
 
-# Controles
+## Controles
 
 * `SPACE` / `UP` / `W` — Saltar / iniciar el juego
 * `DOWN` / `S` — Agacharse
@@ -62,7 +62,7 @@ Dino PyGame es una recreación minimalista y del juego del dinosaurio de Chrome,
 ---
 
 
-# Archivos importantes
+## Archivos importantes
 
 * `Game.py` — Código fuente principal (lógica del juego, sprites programáticos, sonidos procedurales, guardado del highscore, etc.).
 * `Highscore.json` — Archivo JSON que almacena el récord; puede eliminarse o editarse para reiniciar el highscore.
@@ -72,7 +72,7 @@ Dino PyGame es una recreación minimalista y del juego del dinosaurio de Chrome,
 ---
 
 
-# Estructura/Arquitectura
+## Estructura/Arquitectura
 
 * Clases principales en `Game.py`: `Dinosaur`, `Obstacle`, `Ground`, `Cloud` y `Game`.
 * El juego utiliza grupos de sprites de Pygame y un bucle principal (game loop) para actualizar la lógica y renderizar la escena.
